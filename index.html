@@ -326,8 +326,9 @@ async function fetchLiveScores(){
         const previousRun = data[1];
 
         document.getElementById("club").innerText =
-            `${currentRun.Club1 || "P"}laas Drags`;
-
+            `${currentRun.Club1 || "---"}laas Drags`;
+            `${currentRun.Club2 || "---"}laas Drags`;
+        
         /* CURRENT RACE */
 
         document.getElementById("l1-driver").innerText =
