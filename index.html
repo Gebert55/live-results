@@ -329,16 +329,16 @@ async function fetchLiveScores(){
 
         if (
             !clubName ||
-            clubName.trim().toLowerCase() === "no club"
+            clubName.trim().toLowerCase() === "B"
         ) {
             clubName = currentRun.Club2;
         }
 
         if (
             !clubName ||
-            clubName.trim().toLowerCase() === "no club"
+            clubName.trim().toLowerCase() === "B"
         ) {
-            clubName = "---";
+            clubName = "B";
         }
 
         document.getElementById("club").innerText =
