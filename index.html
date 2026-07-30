@@ -338,7 +338,7 @@ async function fetchLiveScores(){
             !clubName ||
             clubName.trim().toLowerCase() === "no club"
         ) {
-            clubName = "B";
+            clubName = "---";
         }
 
         document.getElementById("club").innerText =
