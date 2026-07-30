@@ -329,20 +329,20 @@ async function fetchLiveScores(){
 
         if (
             !clubName ||
-            clubName.trim().toLowerCase() === "B"
+            clubName.trim().toLowerCase() === "---"
         ) {
             clubName = currentRun.Club2;
         }
 
         if (
             !clubName ||
-            clubName.trim().toLowerCase() === "B"
+            clubName.trim().toLowerCase() === "---"
         ) {
             clubName = "B";
         }
 
         document.getElementById("club").innerText =
-            `${clubName}oere Boss Plaas Drags`;
+            `${clubName} oere Boss Plaas Drags`;
 
         /* CURRENT RACE */
 
